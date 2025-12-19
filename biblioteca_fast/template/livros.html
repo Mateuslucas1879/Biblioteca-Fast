@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Biblioteca | Livros</title>
+    <link rel="stylesheet" href="/static/css/livros.css">
+</head>
+<body>
+
+<header class="topbar">
+    <h1>Biblioteca</h1>
+    <div class="user-info">
+        <span>Mateus Lucas</span>
+        <a href="/logout">Sair</a>
+    </div>
+</header>
+
+<main class="container">
+
+    <section class="header-section">
+        <h2>Catálogo de Livros</h2>
+        <input type="text" placeholder="Buscar por título, autor ou categoria">
+    </section>
+
+    <section class="livros-lista">
+
+        <div class="livro-card">
+            <h3>Clean Code</h3>
+            <p><strong>Autor:</strong> Robert C. Martin</p>
+            <p><strong>Ano:</strong> 2008</p>
+            <p><strong>Categoria:</strong> Programação</p>
+            <span class="status disponivel">Disponível</span>
+            <button>Ver detalhes</button>
+        </div>
+
+        <div class="livro-card">
+            <h3>Python Fluente</h3>
+            <p><strong>Autor:</strong> Luciano Ramalho</p>
+            <p><strong>Ano:</strong> 2022</p>
+            <p><strong>Categoria:</strong> Programação</p>
+            <span class="status emprestado">Emprestado</span>
+            <button disabled>Indisponível</button>
+        </div>
+
+        <div class="livro-card">
+            <h3>Refactoring</h3>
+            <p><strong>Autor:</strong> Martin Fowler</p>
+            <p><strong>Ano:</strong> 2019</p>
+            <p><strong>Categoria:</strong> Engenharia de Software</p>
+            <span class="status disponivel">Disponível</span>
+            <button>Ver detalhes</button>
+        </div>
+
+    </section>
+
+</main>
+
+</body>
+</html>

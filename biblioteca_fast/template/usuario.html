@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Painel do Usuário</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <section class="user-header">
+        <div>
+            <h1>Mateus Lucas</h1>
+            <p class="email">email@email.com</p>
+        </div>
+    </section>
+
+    <section class="user-stats">
+        <div class="stat">
+            <span class="stat-number">24</span>
+            <span class="stat-label">Livros lidos</span>
+        </div>
+        <div class="stat">
+            <span class="stat-number">2</span>
+            <span class="stat-label">Empréstimos ativos</span>
+        </div>
+        <div class="stat">
+            <span class="stat-number">0</span>
+            <span class="stat-label">Atrasos</span>
+        </div>
+    </section>
+
+    <section class="card">
+        <h2>Empréstimos Ativos <span>(2 livros)</span></h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Livro</th>
+                    <th>Autor</th>
+                    <th>Ano / Edição</th>
+                    <th>Devolução</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="clickable">
+                    <td>Clean Code</td>
+                    <td>R. Martin</td>
+                    <td>2008 / 1ª</td>
+                    <td>20/12</td>
+                </tr>
+                <tr class="clickable">
+                    <td>Python Fluente</td>
+                    <td>L. Ramalho</td>
+                    <td>2022 / 2ª</td>
+                    <td>05/01</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p class="hint">Clique em um livro para ver detalhes ou renovar</p>
+    </section>
+
+    <section class="card">
+        <h2>Atividades Recentes</h2>
+
+        <ul class="activity-list">
+            <li><span>01/12/2025</span> • Devolveu <strong>"Refactoring"</strong></li>
+            <li><span>28/11/2025</span> • Pegou <strong>"Clean Code"</strong></li>
+        </ul>
+    </section>
+
+    <section class="card">
+        <h2>Sugestões de Livros</h2>
+        <p class="subtitle">Baseado nos livros que você já leu</p>
+
+        <div class="suggestions">
+            <div class="book-card">
+                <div class="book-cover">Livro A</div>
+                <p>Autor • Categoria • Ano</p>
+            </div>
+            <div class="book-card">
+                <div class="book-cover">Livro B</div>
+                <p>Autor • Categoria • Ano</p>
+            </div>
+            <div class="book-card">
+                <div class="book-cover">Livro C</div>
+                <p>Autor • Categoria • Ano</p>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+</body>
+</html>
