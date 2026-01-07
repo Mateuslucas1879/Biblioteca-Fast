@@ -11,13 +11,13 @@ O poetry tem um comando específico para isso: */
 /* Agora com o ambiente virtual ativo,
 podemos iniciar nosso servidor FastAPI para iniciar nossa aplicação */
 
-    fastapi dev biblioteca-fast/app.py
+    fastapi dev biblioteca_fast/app.py
 
 
 /* Também é possível executar os comandos sem entrar no shell do ambiente virtual.
  É mais verboso, mas funciona bem: */
 
-    poetry run fastapi dev biblioteca-fast/app.py
+    poetry run fastapi dev biblioteca_fast/app.py
 
 /* As ferramentas escolhidas são:
 
